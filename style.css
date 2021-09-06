@@ -1,0 +1,65 @@
+body{
+ text-align: center;
+ background-color: #18FFFF; 
+  padding-top: 400;
+}
+#img1{
+width:100px;
+border-radius:40px;
+ margin-top:50px;
+}
+.menu{
+list-style: none;
+font-family: monospace;
+position: fixed;
+top: 0px;
+right: 30px;
+z-index: 999;
+cursor: pointer;
+
+    
+    
+}
+
+.links{
+float: left;
+padding-left: 9px;
+padding-right: 9px;
+padding-top: 5px;
+padding-bottom:5px;
+ font-size: 22px;
+ color: Black;
+    
+}
+.links:hover{
+ background-color: orange;
+    
+    
+}
+#welcome{
+position:absolute;
+        overflow: hidden;
+        height: 400px;
+        color:black;
+        left:0;
+        right:0;
+        bottom:0;
+        top:0;
+        opacity:0.8;
+        background: linear-gradient(#f7121c 0%,#16f4cf 100%);
+        display:table;
+            width: 100%;
+        height: 50%;
+        z-index: 9
+  
+}
+#bio{
+font-family: 'Lobster', cursive;
+ font-size: 30px; 
+  
+}
+
+   
+    
+
+
